@@ -1,0 +1,30 @@
+.navbar {
+	background-color: brown;
+	border: 1px solid black;
+}
+
+.panel>.panel-heading {
+	background-color: #f5f5f5;
+	color: brown;
+	font-weight: bold;
+}
+
+.navbar>.container>div>.navbar-nav>li>a,.navbar>.container>.navbar-header>.navbar-brand
+	{
+	background: none;
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+.navbar>.container>div>.navbar-nav>li>a:hover,.navbar>.container>.navbar-header>a:hover
+	{
+	background: none;
+	color: yellow;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+textarea {
+	width: 100%;
+}

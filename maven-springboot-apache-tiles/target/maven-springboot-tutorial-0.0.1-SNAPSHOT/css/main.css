@@ -1,0 +1,24 @@
+.navbar {
+    background-color: brown;
+    border: 1px solid black;
+}
+
+.navbar>.container>div>.navbar-nav>li>a,
+.navbar>.container>.navbar-header>.navbar-brand {
+    background: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.navbar>.container>div>.navbar-nav>li>a:hover,
+.navbar>.container>.navbar-header>a:hover {
+    background: none;
+    color: yellow;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.panel>.panel-heading {
+    color: white;
+}
